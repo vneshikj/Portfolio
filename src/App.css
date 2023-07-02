@@ -8,11 +8,27 @@
   src: url(../public/fonts/Birthstone-Regular.ttf);
 }
 
-.App {
+@font-face {
+  font-family: Barlow;
+  src: url(../public/fonts/Barlow-Regular.ttf);
+}
+
+/* Body element that encloses */
+body {
   margin: 0;
   padding: 0;
-  overflow: auto;
 }
+
+.App {
+  margin: 0;
+  overflow: auto;
+  background-color: #121212;
+  display: inline-flex;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/* Navitation bar */
 
 .navbar {
   background-color: #232323;
@@ -22,7 +38,6 @@
   font-weight: 600;
   font-size: 100%;
   height: 8.5%;
-  margin: 0px;
   padding: none;
   font-family: LeagueSpartan;
   border: none;
@@ -52,4 +67,30 @@ a {
   font-weight: 500;
   margin: none;
   padding: none;
+}
+
+/* About me section */
+
+.about-me {
+  margin-top: 11%;
+  font-family: LeagueSpartan;
+  color: #f9f9f9;
+}
+
+.title {
+  font-family: Barlow;
+  color: #99a8ff;
+  font-size: 100%;
+  margin: 0;
+}
+
+.name {
+  font-family: Barlow;
+  margin-bottom: 0.7%;
+}
+
+.about-me-intro {
+  line-height: 130%;
+  margin-top: 2.5%;
+  font-size: 105%;
 }
