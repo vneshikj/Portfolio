@@ -23,9 +23,11 @@ body {
   margin: 0;
   overflow: auto;
   background-color: #121212;
-  display: inline-flex;
+  display: block;
   padding-left: 7%;
   padding-right: 7%;
+  scroll-behavior: smooth;
+  scrollbar-color: #121212;
 }
 
 /* Navitation bar */
@@ -75,6 +77,8 @@ a {
   margin-top: 11%;
   font-family: LeagueSpartan;
   color: #f9f9f9;
+  display: block;
+  margin-bottom: 20%;
 }
 
 .title {
@@ -87,10 +91,25 @@ a {
 .name {
   font-family: Barlow;
   margin-bottom: 0.7%;
+  font-size: 300%;
 }
 
 .about-me-intro {
   line-height: 130%;
   margin-top: 2.5%;
-  font-size: 105%;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.purple-headers-generic {
+  color: #99a8ff;
+  font-size: 100%;
+  justify-content: center;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
