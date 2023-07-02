@@ -41,6 +41,7 @@ body {
   font-size: 100%;
   height: 8.5%;
   padding: none;
+
   font-family: LeagueSpartan;
   border: none;
   padding: none;
@@ -74,7 +75,7 @@ a {
 /* About me section */
 
 .about-me {
-  margin-top: 11%;
+  margin-top: 16%;
   font-family: LeagueSpartan;
   color: #f9f9f9;
   display: block;
