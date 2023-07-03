@@ -174,5 +174,10 @@ a {
   margin-top: 10%;
 }
 
-.skill-continaer {
+.purple-mini-header {
+  font-size: 180%;
+}
+
+.shield-container {
+  border-radius: 10px;
 }
