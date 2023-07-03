@@ -7,6 +7,7 @@ function Navbar() {
       <a className="seperator">|</a>
       <a>About me</a>
       <a>Projects</a>
+      <a>Skills</a>
       <a>Contact</a>
       <a>Resume</a>
     </div>

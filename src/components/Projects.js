@@ -16,6 +16,8 @@ function Projects() {
             This flappy bird clone was developed using VHDL and deployed on a
             Cyclone 5 FPGA. This project involved the design of a finite state
             machine, as well as components for VGA output and synchronization.
+            <br />
+            <br />
             The game features different levels, power-ups, and custom character
             selection.
           </p>
@@ -26,11 +28,16 @@ function Projects() {
           <hr className="rounded"></hr>
 
           <p className="project-content">
-            An ASL sign language interpreter built in Python using PyTorch and
-            PyQt5 for the UI. An MVC design pattern was used to streamline the
-            development. The interpreter features three different AI models
-            which can translate ASL. Users can also upload their own photos or
-            use the camera feed within the app.
+            An American sign language interpreter built in Python using PyTorch
+            and PyQt5 for the UI.
+            <br />
+            <br />
+            An MVC design pattern was used to streamline the development.
+            <br />
+            <br />
+            The interpreter features three different AI models which can
+            translate ASL. Users can also upload their own photos or use the
+            camera feed within the app.
           </p>
         </div>
         <div className="project">
@@ -39,8 +46,10 @@ function Projects() {
           <hr className="rounded"></hr>
 
           <p className="project-content">
-            WatchList is an Android application used for showcasing watches. The
-            app was built using Java and Android Studio and features search
+            WatchList is an Android application used for showcasing watches.
+            <br />
+            <br />
+            The app was built using Java and Android Studio and features search
             functionality, filtering by categories, and a favorites page.
           </p>
         </div>
@@ -51,10 +60,15 @@ function Projects() {
 
           <p className="project-content">
             An embedded system project that monitors the real-time energy usage
-            of an inductive appliance. This project features a custom circuit
-            board for signal sensing and conditioning. The circuit board was
-            paired with an ATmega328PB microprocessor running firmware for
-            signal processing.
+            of an inductive appliance.
+            <br />
+            <br />
+            This project features a custom circuit board for signal sensing and
+            conditioning.
+            <br />
+            <br />
+            The circuit board was paired with an ATmega328PB microprocessor
+            running firmware for signal processing.
           </p>
         </div>
       </div>
