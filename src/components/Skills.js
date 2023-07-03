@@ -1,4 +1,5 @@
 import "../App.css";
+import Shield from "./shield";
 
 function Skills() {
   return (
@@ -9,9 +10,82 @@ function Skills() {
         <h2 className="purple-mini-header">Prgramming Languages and Markup</h2>
 
         <div className="shield-container">
-          <img
+          <Shield
             alt="CSS3"
-            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+            src="https://img.shields.io/badge/css3-%23232323.svg?style=for-the-badge&logo=css3&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="CSS3"
+            src="https://img.shields.io/badge/css3-%23232323.svg?style=for-the-badge&logo=css3&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
+          />
+
+          <Shield
+            alt="HTML5"
+            src="https://img.shields.io/badge/html5-%23232323.svg?style=for-the-badge&logo=html5&logoColor=white"
           />
         </div>
       </div>

@@ -179,5 +179,16 @@ a {
 }
 
 .shield-container {
-  border-radius: 10px;
+  padding: none;
+  margin: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5%;
+}
+
+.shield {
+}
+
+.shield-component {
 }
