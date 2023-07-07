@@ -63,7 +63,7 @@ a {
 
 .seperator {
   font-size: 190%;
-  font-weight: 500;
+  font-weight: 300;
   margin: none;
   padding: none;
   transform: translateY(5%);
@@ -82,7 +82,7 @@ a {
 .title {
   font-family: Barlow;
   color: #99a8ff;
-  font-size: 150%;
+  font-size: 140%;
   margin: 0;
   font-weight: 500;
 }
@@ -91,6 +91,7 @@ a {
   font-family: Barlow;
   margin-bottom: 0.7%;
   font-size: 300%;
+  font-weight: 500;
 }
 
 .about-me-intro {
@@ -161,28 +162,29 @@ a {
   font-size: 300%;
   text-align: center;
   margin-top: 10%;
+  margin-bottom: 4%;
 }
 
 .purple-mini-header {
   font-size: 180%;
+  font-weight: 500;
 }
 
 .shield-container {
-  padding: none;
-  margin: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 0.5%;
-  background-color: rgb(156, 68, 68);
+  justify-content: first baseline;
+  gap: 15px;
+  box-sizing: border-box;
 }
 
 .shield {
-  width: 150%;
-  flex-grow: 1;
+  width: 120%;
+  height: auto;
+  margin: 0;
 }
 
 .shield-component {
-  margin: none;
+  margin: 2px;
   padding: none;
 }

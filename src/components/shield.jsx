@@ -1,5 +1,3 @@
-import React from "react";
-
 function Shield({ alt, src }) {
   return (
     <div className="shield-component">

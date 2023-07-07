@@ -5,11 +5,11 @@ function Navbar() {
     <div className="navbar">
       <a className="signature">V.Neshikj</a>
       <a className="seperator">|</a>
-      <a>About me</a>
-      <a>Projects</a>
-      <a>Skills</a>
-      <a>Contact</a>
-      <a>Resume</a>
+      <a className="navbar-items">About me</a>
+      <a className="navbar-items">Projects</a>
+      <a className="navbar-items">Skills</a>
+      <a className="navbar-items">Contact</a>
+      <a className="navbar-items">Resume</a>
     </div>
   );
 }
