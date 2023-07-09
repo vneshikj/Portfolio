@@ -201,7 +201,6 @@ a {
 
 form {
   margin-top: 4%;
-  margin-left: 2%;
   display: flex;
   flex-direction: column;
   row-gap: 5px;
@@ -211,13 +210,14 @@ form {
 
 textarea {
   width: 100%;
-  height: 50vh;
+  height: 200px;
   resize: vertical; /* Allow vertical resizing */
   border-width: 10px;
   border-color: #d9d9d9;
   background-color: #232323;
   border-width: 1px;
   border-style: solid;
+  margin-bottom: 12px;
   resize: none;
   padding: 7px;
   border-radius: 6px;
@@ -238,7 +238,7 @@ input {
 
 ::placeholder {
   font-family: Barlow;
-  font-size: 19px;
+  font-size: 18px;
   color: #d9d9d9;
 }
 
@@ -251,8 +251,10 @@ input {
   background-color: #99a8ff;
   font-family: Barlow;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 18px;
   cursor: pointer;
+  width: 120px;
+  align-self: flex-end;
 }
 
 .joiner {
@@ -260,8 +262,8 @@ input {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   justify-content: flex-start;
-  gap: 10px;
-  margin-bottom: 3px;
+  gap: 13px;
+  margin-bottom: 12px;
 }
 
 .name-input,
@@ -283,5 +285,6 @@ input {
   color: #99a8ff;
   font-weight: lighter;
   font-size: 170%;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 30%;
 }
