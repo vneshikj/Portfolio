@@ -286,7 +286,8 @@ input {
   font-size: 150%;
   font-weight: 400;
   margin-left: 5%;
-  margin-right: 30%;
+  margin-right: -17%;
+  margin-top: 20px;
   width: auto;
   white-space: nowrap;
 }
@@ -294,4 +295,16 @@ input {
 h1 {
   font-weight: 500;
   font-size: 50px;
+}
+
+.contact-description {
+  padding-left: 4px;
+  line-height: 140%;
+  color: #d9d9d9;
+  margin-top: 2.5%;
+  white-space: normal;
+  font-size: 20px;
+  font-family: League Spartan;
+  font-weight: 400;
+  padding-right: 80px;
 }
