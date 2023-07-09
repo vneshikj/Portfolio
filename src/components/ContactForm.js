@@ -25,21 +25,32 @@ const ContactForm = () => {
   };
   return (
     <form className="submission-form" onSubmit={handleSubmit}>
-      <div>
-        <input type="text" id="name" placeholder="Name:" required />
-      </div>
-      <div>
-        <input
-          type="email"
-          id="email"
-          placeholder="Valid email address:"
-          required
-        />
+      <div className="joiner">
+        <div>
+          <input
+            className="name-input"
+            type="text"
+            id="name"
+            placeholder="Name:"
+            required
+          />
+        </div>
+        <div>
+          <input
+            className="email-input"
+            type="email"
+            id="email"
+            placeholder="Valid email address:"
+            required
+          />
+        </div>
       </div>
       <div>
         <textarea id="message" required placeholder="Message:" />
       </div>
-      <button type="submit">{status}</button>
+      <button className="submit-button" type="submit">
+        {status}
+      </button>
     </form>
   );
 };
