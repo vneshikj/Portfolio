@@ -190,10 +190,41 @@ a {
 }
 
 .contact-section {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+  align-items: flex-start; /* aligsn item so start at top of flex box*/
+  margin-bottom: 50%;
 }
 
 .contact-form {
+  color: red;
+  margin-top: 4%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.submission-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Adjust the size of inputs */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 100%;
 }
 
 .contact-writing {
@@ -202,4 +233,5 @@ a {
   font-weight: lighter;
   font-size: 170%;
   font-weight: 100;
+  margin-left: 10%;
 }
