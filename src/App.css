@@ -191,8 +191,15 @@ a {
 
 .contact-section {
   display: inline-block;
+}
+
+.contact-form {
+}
+
+.contact-writing {
   font-family: Barlow;
   color: #99a8ff;
   font-weight: lighter;
   font-size: 170%;
+  font-weight: 100;
 }
