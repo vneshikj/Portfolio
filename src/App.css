@@ -174,7 +174,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: first baseline;
-  gap: 15px;
+  gap: 2%;
   box-sizing: border-box;
 }
 
@@ -185,6 +185,14 @@ a {
 }
 
 .shield-component {
-  margin: 2px;
+  margin-bottom: 5px;
   padding: none;
+}
+
+.contact-section {
+  display: inline-block;
+  font-family: Barlow;
+  color: #99a8ff;
+  font-weight: lighter;
+  font-size: 170%;
 }

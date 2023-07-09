@@ -8,7 +8,7 @@ function Skills() {
       <h1 className="purple-headers-generic2">Technical Skills</h1>
 
       <div className="skill-container">
-        <h2 className="purple-mini-header">Prgramming Languages and Markup</h2>
+        <h2 className="purple-mini-header">Programming Languages and Markup</h2>
 
         <div className="shield-container">
           <Shield
@@ -64,14 +64,139 @@ function Skills() {
 
       <div className="skill-container">
         <h2 className="purple-mini-header">Embedded Systems</h2>
+        <div className="shield-container">
+          <Shield
+            alt="Altium Designer"
+            src="https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white"
+          />
+
+          <Shield
+            alt="Quartus"
+            src="https://img.shields.io/badge/Quartus_Prime-00285A?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Model Sim"
+            src="https://img.shields.io/badge/ModelSim-0000FF?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Cyclone V FPGA"
+            src="https://img.shields.io/badge/Cyclone_V_FPGA-0067a5?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Proteus"
+            src="https://img.shields.io/badge/Proteus-1C79B3?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Microchip studio"
+            src="https://img.shields.io/badge/Microchip_Studio-EE3233?style=for-the-badge"
+          />
+
+          <Shield
+            alt="LT Spice"
+            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge"
+          />
+
+          <Shield
+            alt="ATmega328PB"
+            src="https://img.shields.io/badge/ATmega328PB-ed1b2d?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Android"
+            src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"
+          />
+        </div>
       </div>
 
       <div className="skill-container">
         <h2 className="purple-mini-header">Frameworks and Libraries</h2>
+
+        <div className="shield-container">
+          <Shield
+            alt="PyQt"
+            src="https://img.shields.io/badge/PYQT5-10c93e?style=for-the-badge&logo=qt&logoColor=white"
+          />
+          <Shield
+            alt="Numpy"
+            src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"
+          />
+          <Shield
+            alt="Pandas"
+            src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"
+          />
+          <Shield
+            alt="PyTorch"
+            src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white"
+          />
+        </div>
       </div>
 
       <div className="skill-container">
         <h2 className="purple-mini-header">Other Tools</h2>
+
+        <div className="shield-container">
+          <Shield
+            alt="GitHub"
+            src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+          />
+          <Shield
+            alt="Git"
+            src="https://img.shields.io/badge/Git-F05133?style=for-the-badge&logo=git&logoColor=white"
+          />
+          <Shield
+            alt="Visual Studio Code"
+            src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"
+          />
+          <Shield
+            alt="Notion"
+            src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"
+          />
+          <Shield
+            alt="Trello"
+            src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"
+          />
+          <Shield
+            alt="Powershell"
+            src="https://img.shields.io/badge/Powershell-2671BE?style=for-the-badge&logo=powershell&logoColor=white"
+          />
+          <Shield
+            alt="Gradle"
+            src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white"
+          />
+          <Shield
+            alt="Maven"
+            src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white"
+          />
+          <Shield
+            alt="Obsidian"
+            src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white"
+          />
+          <Shield
+            alt="Android Studio"
+            src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white"
+          />
+          <Shield
+            alt="Eclipse"
+            src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white"
+          />
+          <Shield
+            alt="IntelliJ IDEA"
+            src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"
+          />
+          <Shield
+            alt="RStudio"
+            src="https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white"
+          />
+
+          <Shield
+            alt="Visual Studio"
+            src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white"
+          />
+        </div>
       </div>
 
       <div></div>
