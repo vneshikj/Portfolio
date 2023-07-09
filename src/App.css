@@ -104,7 +104,6 @@ a {
 
 .purple-headers-generic {
   color: #99a8ff;
-  font-size: 100%;
   justify-content: center;
 }
 
@@ -284,7 +283,15 @@ input {
   font-family: Barlow;
   color: #99a8ff;
   font-weight: lighter;
-  font-size: 170%;
+  font-size: 150%;
+  font-weight: 400;
   margin-left: 5%;
   margin-right: 30%;
+  width: auto;
+  white-space: nowrap;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 50px;
 }
