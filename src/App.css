@@ -233,19 +233,16 @@ input {
 
 .joiner {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: space-evenly;
-  flex-grow: 1;
+  justify-content: flex-start;
+  gap: 5px;
 }
 
-/* .name-input {
-  width: 170%;
-}
-
+.name-input,
 .email-input {
-  width: 170%;
-} */
+  width: 97%;
+  margin-right: 100px;
+}
+
 .contact-writing {
   font-family: Barlow;
   color: #99a8ff;
