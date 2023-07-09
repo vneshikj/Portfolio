@@ -215,6 +215,7 @@ textarea {
   border-width: 2px;
   border-color: #99a8ff;
   border-style: solid;
+  box-sizing: border-box;
 }
 
 input {
@@ -222,6 +223,7 @@ input {
   border-width: 2px;
   border-color: #99a8ff;
   border-style: solid;
+  box-sizing: border-box;
 }
 
 .submit-button {
@@ -232,15 +234,25 @@ input {
 }
 
 .joiner {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   justify-content: flex-start;
   gap: 5px;
 }
 
 .name-input,
 .email-input {
-  width: 97%;
-  margin-right: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.name-input {
+  grid-column: 1;
+}
+
+.email-input {
+  grid-column: 2;
 }
 
 .contact-writing {
