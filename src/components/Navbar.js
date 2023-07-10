@@ -1,9 +1,18 @@
 import "../App.css";
 
 function Navbar() {
-  const scrollToFuncction = (sectionId) => {
+  const scrollToFunction = (sectionId) => {
     const section = document.getElementById(sectionId);
-    const yOffset = -50;
+    const yOffset =
+      sectionId === "about-me-section"
+        ? -300
+        : sectionId === "projects-section"
+        ? -50
+        : sectionId === "technical-skills-section"
+        ? -50
+        : sectionId === "contact-section"
+        ? -160
+        : 0;
     const y =
       section.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
@@ -16,23 +25,28 @@ function Navbar() {
       <a className="seperator">|</a>
       <a
         className="navbar-items"
-        onClick={() => scrollToFuncction("about-me-section")}
+        onClick={() => scrollToFunction("about-me-section")}
       >
         About me
       </a>
       <a
         className="navbar-items"
-        onClick={() => scrollToFuncction("projects-section")}
+        onClick={() => scrollToFunction("projects-section")}
       >
         Projects
       </a>
       <a
         className="navbar-items"
-        onClick={() => scrollToFuncction("technical-skills-section")}
+        onClick={() => scrollToFunction("technical-skills-section")}
       >
         Skills
       </a>
-      <a className="navbar-items">Contact</a>
+      <a
+        className="navbar-items"
+        onClick={() => scrollToFunction("contact-section")}
+      >
+        Contact
+      </a>
       <a className="navbar-items">Resume</a>
     </div>
   );
