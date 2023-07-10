@@ -4,7 +4,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="technical-skills-section">
+    <div className="technical-skills-section" id="technical-skills-section">
       <h1 className="purple-headers-generic2">Technical Skills</h1>
 
       <div className="skill-container">

@@ -2,7 +2,7 @@ import "../App.css";
 
 function Projects() {
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="projects-section">
       <a className="name">
         <h1 className="purple-headers-generic">Projects</h1>
       </a>

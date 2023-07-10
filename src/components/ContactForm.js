@@ -6,7 +6,7 @@ const ContactForm = () => {
     // asynch function doesnt block execution of other code, await statement pauses execution of function until promise is resolved
     e.preventDefault();
     setStatus("Sending...");
-    const { name, email, message } = e.target.elements; // e.target.elements allows access to values by id or name attributes, target is whole form
+    const { name, email, message } = e.target.elements; // e.target.elements allows access to values by id or name attributes, target is the whole form
     let details = {
       name: name.value,
       email: email.value,
