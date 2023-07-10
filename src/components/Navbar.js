@@ -24,6 +24,7 @@ function Navbar() {
     <div className="navbar">
       <a className="signature">V.Neshikj</a>
       <a className="seperator">|</a>
+
       <a
         className="navbar-items"
         onClick={() => scrollToFunction("about-me-section")}
