@@ -1,4 +1,5 @@
 import "../App.css";
+import resume from "../resources/resume.pdf";
 
 function Navbar() {
   const scrollToFunction = (sectionId) => {
@@ -47,7 +48,9 @@ function Navbar() {
       >
         Contact
       </a>
-      <a className="navbar-items">Resume</a>
+      <a className="navbar-items" href={resume} target="blank">
+        Resume
+      </a>
     </div>
   );
 }
