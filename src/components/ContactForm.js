@@ -27,7 +27,7 @@ const ContactForm = () => {
     <form
       name="contact v1"
       method="post"
-      data-netlify="true"
+      netlify
       className="submission-form"
       onSubmit="submit"
     >
