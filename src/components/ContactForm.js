@@ -8,7 +8,7 @@ const ContactForm = () => {
       data-netlify="true"
       className="submission-form"
       netlify-honeypot="bot-field"
-      action="/success/page"
+      action="/success-page"
     >
       <div className="joiner">
         <input type="hidden" name="form-name" value="contact" />
