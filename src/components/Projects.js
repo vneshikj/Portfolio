@@ -3,9 +3,9 @@ import "../App.css";
 function Projects() {
   return (
     <div className="projects-section" id="projects-section">
-      <a className="name">
+      <h1 className="name">
         <h1 className="purple-headers-generic">Projects</h1>
-      </a>
+      </h1>
       <div className="projects-layout">
         <div className="project">
           <p className="project-title">Flappy Bird</p>

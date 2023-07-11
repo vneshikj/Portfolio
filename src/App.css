@@ -91,7 +91,7 @@ a:hover {
   margin-left: 4.5%;
   margin-right: 3%;
   transform: translateY(-0.7px);
-  cursor: auto;
+  cursor: pointer;
 }
 
 .seperator {
