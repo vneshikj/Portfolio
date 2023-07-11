@@ -22,7 +22,12 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <a className="signature">V.Neshikj</a>
+      <a
+        className="signature"
+        onClick={() => scrollToFunction("about-me-section")}
+      >
+        V.Neshikj
+      </a>
       <a className="seperator">|</a>
 
       <a

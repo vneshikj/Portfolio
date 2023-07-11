@@ -100,7 +100,7 @@ a:hover {
   margin: none;
   padding: none;
   transform: translateY(5%);
-  cursor: auto;
+  cursor: unset;
 }
 
 .seperator::after {
