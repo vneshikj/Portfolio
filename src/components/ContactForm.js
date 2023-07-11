@@ -2,13 +2,7 @@ import React, { useState } from "react";
 
 const ContactForm = () => {
   return (
-    <form
-      name="contact v1"
-      method="post"
-      data-netlify="true"
-      className="submission-form"
-      onSubmit="submit"
-    >
+    <form name="contact v1" method="post" netlify className="submission-form">
       <div className="joiner">
         <div>
           <input type="hidden" name="form-name" value="contact v1" />
