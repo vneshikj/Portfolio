@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const ContactForm = () => {
   return (
     <form
-      name="contact v1"
+      name="contact"
       method="post"
       netlify
       className="submission-form"
@@ -13,7 +13,6 @@ const ContactForm = () => {
       <div className="joiner">
         <input type="hidden" name="form-name" value="contact" />
         <div>
-          <input type="hidden" name="form-name" value="contact v1" />
           <input
             className="name-input"
             name="name"
