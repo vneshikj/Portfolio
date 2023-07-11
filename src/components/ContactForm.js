@@ -2,8 +2,16 @@ import React, { useState } from "react";
 
 const ContactForm = () => {
   return (
-    <form name="contact v1" method="post" netlify className="submission-form">
+    <form
+      name="contact v1"
+      method="post"
+      netlify
+      className="submission-form"
+      netlify-honeypot="bot-field"
+      hidden
+    >
       <div className="joiner">
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <input type="hidden" name="form-name" value="contact v1" />
           <input
