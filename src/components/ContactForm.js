@@ -11,7 +11,7 @@ const ContactForm = () => {
       action="/success-page"
     >
       <input
-        type="hidden"
+        type="text"
         name="subject"
         value="{{name}} has sent a message from your portfolio website"
       />
