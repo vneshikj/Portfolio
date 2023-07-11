@@ -260,6 +260,9 @@ textarea {
   padding: 7px;
   border-radius: 6px;
   box-sizing: border-box; /* This ensures that padding and border are included in the total width */
+  font-family: Barlow;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 input {
@@ -272,6 +275,9 @@ input {
   box-sizing: border-box;
   background-color: #232323;
   border-radius: 6px;
+  font-family: Barlow;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 ::placeholder {
@@ -312,6 +318,13 @@ input {
 
 .name-input {
   grid-column: 1;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #99a8ff;
+  transition: 0.4s;
+  opacity: 0.8;
 }
 
 .email-input {
