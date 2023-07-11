@@ -365,7 +365,3 @@ h1 {
   height: 5px;
   width: 650px;
 }
-
-form[name="contact"] {
-  display: none;
-}
