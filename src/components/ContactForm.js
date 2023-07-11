@@ -9,9 +9,12 @@ const ContactForm = () => {
       className="submission-form"
       netlify-honeypot="bot-field"
       action="/success-page"
-      value="New message from %{formName} %{submissionId}"
     >
-      <input type="hidden" name="subject" value="Message from %{formName}" />
+      <input
+        type="hidden"
+        name="subject"
+        value="{{name}} has sent a message from your portfolio website"
+      />
       <input type="hidden" name="form-name" value="contact" />
       <div className="joiner">
         <div>
