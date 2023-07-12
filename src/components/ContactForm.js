@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const ContactForm = () => {
   return (
     <form
@@ -11,7 +9,7 @@ const ContactForm = () => {
       action="/success-page"
     >
       <input
-        type="text"
+        type="hidden" // when set to text it's visible in form but this doesn't affect subject line
         name="subject"
         value="{{name}} has sent a message from your portfolio website"
       />
