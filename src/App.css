@@ -31,7 +31,8 @@ body {
   color: #f9f9f9;
   font-weight: 600;
   font-size: 130%;
-  height: 8.5%;
+  height: 60px;
+  flex-shrink: 1;
   padding: none;
   font-family: League Spartan;
   border: none;
@@ -138,6 +139,7 @@ a:hover {
 .purple-headers-generic {
   color: #99a8ff;
   justify-content: center;
+  align-self: start;
 }
 
 .projects-section {
@@ -191,8 +193,7 @@ a:hover {
 
 .purple-headers-generic2 {
   color: #99a8ff;
-  font-size: 300%;
-  text-align: center;
+  text-align: start;
   margin-top: 10%;
   margin-bottom: 4%;
 }
@@ -360,4 +361,45 @@ h1 {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 700px) {
+  .about-me {
+    margin-top: 100px;
+  }
+
+  .name {
+    font-size: 250%;
+  }
+
+  .title {
+    font-size: 120%;
+  }
+
+  .about-me-intro {
+    margin-top: 30px;
+    font-size: 120%;
+    line-height: 25px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: start;
+    justify-content: start;
+  }
+
+  .projects-section {
+    align-items: flex-start;
+  }
+
+  .purple-mini-header {
+    font-size: 20px;
+    justify-content: start;
+  }
+
+  .purple-headers-generic {
+    align-self: flex-start;
+    margin-left: 2px;
+  }
 }
