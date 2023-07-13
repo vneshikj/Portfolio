@@ -1,5 +1,6 @@
 import ProjectCard from "./projectCard";
 import "../App.css"; // Components have to be starting with capital letter silly
+import "../components/ProjectCard.css";
 
 function Projects() {
   return (
