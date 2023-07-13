@@ -350,13 +350,11 @@ h1 {
   font-size: 22px;
   font-family: League Spartan;
   font-weight: 400;
-  padding-right: 80px;
 }
 
 .adjust {
   height: fit-content;
-  max-width: 600px;
-  min-width: 300px;
+  width: 100%;
 }
 
 .hidden {
@@ -387,6 +385,7 @@ h1 {
     font-weight: 600;
     text-align: start;
     justify-content: start;
+    margin-left: 2px;
   }
 
   .projects-section {
@@ -400,6 +399,27 @@ h1 {
 
   .purple-headers-generic {
     align-self: flex-start;
-    margin-left: 2px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-section {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-writing {
+    grid-row: 1;
+  }
+
+  .contact-description {
+    padding: 0;
+  }
+
+  .adjust {
+    width: 100%;
+    max-width: none;
+  }
+  .submit-form {
+    grid-row: 2;
   }
 }
