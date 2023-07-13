@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
-    <div className="contact-section" id="contact-section">
+    <div className="contact-section">
       <ContactForm />
       <div className="contact-writing">
         <h1>Contact Me</h1>
