@@ -403,6 +403,13 @@ h1 {
 }
 
 @media (max-width: 1000px) {
+  head {
+  }
+
+  body {
+    box-sizing: border-box;
+    width: 100%;
+  }
   .contact-section {
     grid-template-columns: 1fr;
   }
@@ -421,5 +428,13 @@ h1 {
   }
   .submit-form {
     grid-row: 2;
+  }
+
+  .navbar-items {
+    display: none;
+  }
+
+  .seperator {
+    display: none;
   }
 }
