@@ -107,11 +107,11 @@ a:hover {
 /* About me section */
 
 .about-me {
-  margin-top: 16%;
+  margin-top: 180px;
   font-family: League Spartan;
   color: #f9f9f9;
   display: block;
-  margin-bottom: 14%;
+  margin-bottom: 140px;
 }
 
 .title {
@@ -148,6 +148,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 140px;
 }
 
 .projects-layout {
@@ -194,7 +195,7 @@ a:hover {
 
 .purple-headers-generic2 {
   color: #99a8ff;
-  text-align: start;
+  text-align: center;
   margin-top: 10%;
   margin-bottom: 4%;
 }
@@ -229,7 +230,7 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   column-gap: 5%;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 160px;
   margin-bottom: 50%;
 }
 
@@ -363,8 +364,13 @@ h1 {
 }
 
 @media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .about-me {
     margin-top: 100px;
+    margin-bottom: 10px;
   }
 
   .name {
@@ -386,11 +392,11 @@ h1 {
     font-weight: 600;
     text-align: start;
     justify-content: start;
-    margin-left: 2px;
   }
 
   .projects-section {
     align-items: flex-start;
+    margin-bottom: 60px;
   }
 
   .purple-mini-header {
@@ -400,9 +406,16 @@ h1 {
 
   .purple-headers-generic {
     align-self: flex-start;
+    margin-top: 0;
+  }
+
+  .purple-headers-generic2 {
+    text-align: start;
+    margin-top: 0;
   }
 }
 
+/* For navigation bar */
 @media (max-width: 1000px) {
   body {
     box-sizing: border-box;
