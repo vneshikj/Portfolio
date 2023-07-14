@@ -12,8 +12,10 @@ class Sidebar extends Component {
         <ul>
           {SidebarItems.map((item, index) => {
             return (
-              <li>
-                <a className={item.cName}></a>
+              <li key={index}>
+                <a className={item.cName} href={item.url}>
+                  {item.title}
+                </a>
               </li>
             );
           })}
