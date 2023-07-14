@@ -404,9 +404,6 @@ h1 {
 }
 
 @media (max-width: 1000px) {
-  head {
-  }
-
   body {
     box-sizing: border-box;
     width: 100%;
