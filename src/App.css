@@ -421,6 +421,10 @@ h1 {
     text-align: start;
     margin-top: 0;
   }
+
+  .contact-section {
+    margin-top: 20px;
+  }
 }
 
 /* For navigation bar */
@@ -454,6 +458,10 @@ h1 {
   }
 
   .seperator {
+    display: none;
+  }
+
+  a::after {
     display: none;
   }
 }

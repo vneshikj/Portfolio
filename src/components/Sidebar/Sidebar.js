@@ -26,7 +26,10 @@ class Sidebar extends Component {
                 {item.id ? (
                   <a
                     className={item.cName}
-                    onClick={() => scrollToFunction(item.id)}
+                    onClick={() => {
+                      scrollToFunction(item.id);
+                      this.handleClick();
+                    }}
                   >
                     {item.title}
                   </a>
