@@ -1,5 +1,6 @@
 import "../App.css";
 import resume from "../resources/resume.pdf";
+import Sidebar from "./Sidebar/Sidebar";
 
 function Navbar() {
   const scrollToFunction = (sectionId) => {
@@ -28,6 +29,9 @@ function Navbar() {
       >
         V.Neshikj
       </a>
+
+      <Sidebar />
+
       <a className="seperator">|</a>
 
       <a

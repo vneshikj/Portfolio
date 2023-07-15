@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 import { SidebarItems } from "./SidebarItems";
+import "../Sidebar/Sidebar.css";
 
 class Sidebar extends Component {
+  state = { clicked: false };
+
   render() {
     return (
       <nav className="SidebarItems">
-        <h1 className="sidebar-logo"></h1>
-
-        <div className="mene-icon"></div>
+        <div className="menu-icon" onClick={this.handleClick}>
+          <i
+            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+          ></i>
+        </div>
 
         <ul>
           {SidebarItems.map((item, index) => {
