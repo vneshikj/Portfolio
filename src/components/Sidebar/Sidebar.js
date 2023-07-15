@@ -21,7 +21,7 @@ class Sidebar extends Component {
         <ul className={this.state.clicked ? "nav-menu-active" : "nav-menu"}>
           {SidebarItems.map((item, index) => {
             return (
-              <li key={index}>
+              <li key={index} className="link-container">
                 <a className={item.cName} href={item.url}>
                   {item.title}
                 </a>
