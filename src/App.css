@@ -44,6 +44,7 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 100;
 }
 
 a {
@@ -366,6 +367,10 @@ h1 {
   display: none;
 }
 
+.SidebarItems {
+  display: none;
+}
+
 @media (max-width: 700px) {
   body {
     overflow-x: hidden;
@@ -416,6 +421,10 @@ h1 {
     text-align: start;
     margin-top: 0;
   }
+
+  .contact-section {
+    margin-top: 20px;
+  }
 }
 
 /* For navigation bar */
@@ -449,6 +458,10 @@ h1 {
   }
 
   .seperator {
+    display: none;
+  }
+
+  a::after {
     display: none;
   }
 }

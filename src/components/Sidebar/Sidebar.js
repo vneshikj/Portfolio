@@ -1,19 +1,43 @@
 import React, { Component } from "react";
 import { SidebarItems } from "./SidebarItems";
+import "../Sidebar/Sidebar.css";
+import { scrollToFunction } from "../../Utilities";
 
 class Sidebar extends Component {
+  state = { clicked: false };
+
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
+
   render() {
     return (
       <nav className="SidebarItems">
-        <h1 className="sidebar-logo"></h1>
+        <div className="menu-icon" onClick={this.handleClick}>
+          <i
+            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+          ></i>
+        </div>
 
-        <div className="mene-icon"></div>
-
-        <ul>
+        <ul className={this.state.clicked ? "nav-menu-active" : "nav-menu"}>
           {SidebarItems.map((item, index) => {
             return (
-              <li>
-                <a className={item.cName}></a>
+              <li key={index} className="link-container">
+                {item.id ? (
+                  <a
+                    className={item.cName}
+                    onClick={() => {
+                      scrollToFunction(item.id);
+                      this.handleClick();
+                    }}
+                  >
+                    {item.title}
+                  </a>
+                ) : (
+                  <a className={item.cName} href={item.url} target="_blank">
+                    {item.title}
+                  </a>
+                )}
               </li>
             );
           })}
