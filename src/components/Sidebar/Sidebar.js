@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { SidebarItems } from "./SidebarItems";
 import "../Sidebar/Sidebar.css";
+import { scrollToFunction } from "../../Utilities";
 
 class Sidebar extends Component {
   state = { clicked: false };
@@ -22,9 +23,18 @@ class Sidebar extends Component {
           {SidebarItems.map((item, index) => {
             return (
               <li key={index} className="link-container">
-                <a className={item.cName} href={item.url}>
-                  {item.title}
-                </a>
+                {item.id ? (
+                  <a
+                    className={item.cName}
+                    onClick={() => scrollToFunction(item.id)}
+                  >
+                    {item.title}
+                  </a>
+                ) : (
+                  <a className={item.cName} href={item.url} target="_blank">
+                    {item.title}
+                  </a>
+                )}
               </li>
             );
           })}

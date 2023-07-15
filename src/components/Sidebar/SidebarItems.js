@@ -4,25 +4,25 @@ export const SidebarItems = [
   {
     title: "About Me",
     cName: "side-bar-item",
-    url: "#",
+    id: "about-me-section",
   },
 
   {
     title: "Projects",
     cName: "side-bar-item",
-    url: "#",
+    id: "projects-section",
   },
 
   {
-    title: "Slills",
+    title: "Skills",
     cName: "side-bar-item",
-    url: "#",
+    id: "technical-skills-section",
   },
 
   {
     title: "Contact",
     cName: "side-bar-item",
-    url: "#",
+    id: "contact-section",
   },
 
   { title: "Resume", cName: "side-bar-item", url: resume },
