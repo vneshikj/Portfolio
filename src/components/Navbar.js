@@ -30,8 +30,6 @@ function Navbar() {
         V.Neshikj
       </a>
 
-      <Sidebar />
-
       <a className="seperator">|</a>
 
       <a
@@ -61,6 +59,7 @@ function Navbar() {
       <a className="navbar-items" href={resume} target="blank">
         Resume
       </a>
+      <Sidebar />
     </div>
   );
 }

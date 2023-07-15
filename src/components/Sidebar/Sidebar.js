@@ -6,7 +6,7 @@ class Sidebar extends Component {
   state = { clicked: false };
 
   handleClick = () => {
-    this.setState({ clicked: !this.state.cliked });
+    this.setState({ clicked: !this.state.clicked });
   };
 
   render() {
