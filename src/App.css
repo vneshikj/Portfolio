@@ -21,6 +21,8 @@ body {
   padding-right: 7%;
   scroll-behavior: smooth;
   scrollbar-color: #121212;
+  width: 101.9%;
+  box-sizing: border-box;
 }
 
 /* Navitation bar */
