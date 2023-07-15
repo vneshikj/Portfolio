@@ -71,7 +71,7 @@ a:hover::after {
   transform: scaleX(1);
 }
 
-a:hover {
+.navbar-items:hover {
   transition: 0.5s;
   color: #99a8ff;
 }
