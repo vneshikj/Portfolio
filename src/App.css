@@ -464,4 +464,8 @@ h1 {
   a::after {
     display: none;
   }
+
+  .contact-section {
+    margin-top: 70px;
+  }
 }
