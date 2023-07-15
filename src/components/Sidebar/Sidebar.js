@@ -5,6 +5,10 @@ import "../Sidebar/Sidebar.css";
 class Sidebar extends Component {
   state = { clicked: false };
 
+  handleClick = () => {
+    this.setState({ clicked: !this.state.cliked });
+  };
+
   render() {
     return (
       <nav className="SidebarItems">
@@ -14,7 +18,7 @@ class Sidebar extends Component {
           ></i>
         </div>
 
-        <ul>
+        <ul className={this.state.clicked ? "nav-menu-active" : "nav-menu"}>
           {SidebarItems.map((item, index) => {
             return (
               <li key={index}>
