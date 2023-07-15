@@ -59,7 +59,6 @@ function Navbar() {
       <a className="navbar-items" href={resume} target="blank">
         Resume
       </a>
-      <Sidebar />
     </div>
   );
 }
