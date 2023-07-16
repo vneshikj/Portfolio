@@ -132,6 +132,11 @@ function Skills() {
             alt="PyTorch"
             src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white"
           />
+
+          <Shield
+            alt="React"
+            src="https://img.shields.io/badge/React-2f3036?style=for-the-badge&logo=react&logoColor=61DAFB"
+          />
         </div>
       </div>
 
@@ -201,6 +206,16 @@ function Skills() {
           <Shield
             alt="Visual Studio"
             src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white"
+          />
+
+          <Shield
+            alt="Node"
+            src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
+          />
+
+          <Shield
+            alt="Figma"
+            src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
           />
         </div>
       </div>
