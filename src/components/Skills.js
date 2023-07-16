@@ -59,6 +59,11 @@ function Skills() {
             alt="VHDL"
             src="https://img.shields.io/badge/VHDL-f0f0f2?style=for-the-badge"
           />
+
+          <Shield
+            alt="JavaScript"
+            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+          />
         </div>
       </div>
 
@@ -103,11 +108,6 @@ function Skills() {
           <Shield
             alt="ATmega328PB"
             src="https://img.shields.io/badge/ATmega328PB-ed1b2d?style=for-the-badge"
-          />
-
-          <Shield
-            alt="Android"
-            src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"
           />
         </div>
       </div>
@@ -167,6 +167,12 @@ function Skills() {
             alt="Gradle"
             src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white"
           />
+
+          <Shield
+            alt="NPM"
+            src="https://img.shields.io/badge/npm-CB0000?style=for-the-badge&logo=npm&logoColor=white"
+          />
+
           <Shield
             alt="Maven"
             src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white"
