@@ -300,6 +300,34 @@ input {
   cursor: pointer;
   width: 120px;
   align-self: flex-end;
+  position: relative; /* Allows to offset the position of where it would nomally be using top, bottom etc, but item remains in current position in document flow  */
+  z-index: 2;
+}
+
+.submit-button::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 6px;
+  border: 3px solid;
+  border-color: #99a8ff;
+}
+
+.submit-button:hover::before,
+.submit-bitton:focus::before {
+  top: -8px;
+  right: -8px;
+  left: -8px;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.submit-button:active {
+  background-color: #b3bcf9;
 }
 
 .joiner {
