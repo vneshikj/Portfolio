@@ -3,7 +3,7 @@ const ContactForm = () => {
     <form
       name="contact"
       method="post"
-      data-netlify="true"
+      netlify
       className="submission-form"
       netlify-honeypot="bot-field"
     >
