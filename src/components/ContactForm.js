@@ -6,7 +6,6 @@ const ContactForm = () => {
       data-netlify="true"
       className="submission-form"
       netlify-honeypot="bot-field"
-      action="/success-page"
     >
       <input
         type="hidden" // when set to text it's visible in form but this doesn't affect subject line
