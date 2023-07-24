@@ -1,7 +1,6 @@
 @media (max-width: 1000px) {
   .SidebarItems {
     height: 100%;
-    width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -29,6 +28,7 @@
     list-style-type: none;
     transition: all 0.5s ease;
     opacity: 0;
+    visibility: hidden;
   }
 
   .nav-menu-active {
@@ -51,9 +51,10 @@
   }
 
   .menu-icon {
-    transform: translate(210%, 30%);
     font-size: 25px;
     color: #f9f9f9;
+    margin-right: 15px;
+    margin-top: 5px;
   }
 
   .fa-times {
