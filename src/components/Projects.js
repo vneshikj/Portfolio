@@ -15,6 +15,7 @@ function Projects() {
           title="Flappy Bird"
           description="This flappy bird clone was developed using VHDL and deployed on a Cyclone 5 FPGA.   This project involved the design of a finite state machine, as well as components for VGA output and synchronization. 
           The game features different levels, power-ups, and custom character selection."
+          link="https://github.com/vneshikj/Flappy-Bird"
         >
           <Shield
             alt="VHDL"
@@ -39,6 +40,7 @@ function Projects() {
           An MVC design pattern was used to streamline the development. 
           
           The interpreter features three different AI models which can translate ASL. Users can also upload their own photos or use the camera feed within the app."
+          link="https://github.com/vneshikj/ASL-Interpreter"
         >
           <Shield
             alt="Python"
@@ -69,6 +71,7 @@ function Projects() {
           description="WatchList is an Android application used for showcasing watches. 
 
           The app was built using Java and Android Studio and features search functionality, filtering by categories, and a favorites page. "
+          link="https://github.com/vneshikj/Watch-App"
         >
           <Shield
             alt="Android Studio"
@@ -93,6 +96,7 @@ function Projects() {
           This project features a custom circuit board for signal sensing and conditioning.
           
           The circuit board was paired with an ATmega328PB microprocessor running firmware for signal processing.     "
+          link="https://github.com/vneshikj/Energy-Monitor"
         >
           <Shield
             alt="C"
