@@ -11,16 +11,16 @@
 
 .project-card {
   position: relative;
-  flex: 2 2 calc(50% - 30px);
   display: flex;
+  flex: 2 2 calc(50% - 30px);
+  flex-shrink: 0;
+  align-items: flex-start;
+  flex-direction: column;
   max-width: 600px;
   min-width: 100px;
   min-height: 350px;
   padding: 15px 16px;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 16px;
-  flex-shrink: 0;
   border-radius: 5px;
   background: var(--portfolio-elevation, #232323);
 }

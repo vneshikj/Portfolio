@@ -453,6 +453,10 @@ h1 {
   .contact-section {
     margin-top: 20px;
   }
+
+  .project-card {
+    height: 450px;
+  }
 }
 
 /* For navigation bar */
