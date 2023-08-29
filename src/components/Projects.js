@@ -1,6 +1,7 @@
 import ProjectCard from "./projectCard";
 import "../App.css"; // Components have to be starting with capital letter silly
 import "../components/ProjectCard.css";
+import Shield from "../components/shield";
 
 function Projects() {
   return (
@@ -14,7 +15,22 @@ function Projects() {
           title="Flappy Bird"
           description="This flappy bird clone was developed using VHDL and deployed on a Cyclone 5 FPGA.   This project involved the design of a finite state machine, as well as components for VGA output and synchronization. 
           The game features different levels, power-ups, and custom character selection."
-        />
+        >
+          <Shield
+            alt="VHDL"
+            src="https://img.shields.io/badge/VHDL-f0f0f2?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Cyclone V FPGA"
+            src="https://img.shields.io/badge/Cyclone_V_FPGA-0067a5?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Quartus"
+            src="https://img.shields.io/badge/Quartus_Prime-00285A?style=for-the-badge"
+          />
+        </ProjectCard>
 
         <ProjectCard
           title="Interpreter"

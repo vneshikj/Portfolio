@@ -10,6 +10,7 @@
 }
 
 .project-card {
+  position: relative;
   flex: 2 2 calc(50% - 30px);
   display: flex;
   max-width: 600px;
@@ -20,7 +21,6 @@
   align-items: flex-start;
   gap: 16px;
   flex-shrink: 0;
-
   border-radius: 5px;
   background: var(--portfolio-elevation, #232323);
 }
@@ -52,4 +52,15 @@ hr.rounded {
   width: 100%;
   margin-top: 4px;
   margin-bottom: -2px;
+}
+
+.card-shield-container {
+  margin-top: 20px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-content: center;
+  align-self: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
 }
