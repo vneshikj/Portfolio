@@ -62,5 +62,6 @@ hr.rounded {
   align-content: center;
   align-self: flex-start;
   gap: 10px;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  row-gap: 5px;
 }

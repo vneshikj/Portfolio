@@ -39,14 +39,52 @@ function Projects() {
           An MVC design pattern was used to streamline the development. 
           
           The interpreter features three different AI models which can translate ASL. Users can also upload their own photos or use the camera feed within the app."
-        />
+        >
+          <Shield
+            alt="Python"
+            src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+          />
+          <Shield
+            alt="PyTorch"
+            src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white"
+          />
+          <Shield
+            alt="PyQt"
+            src="https://img.shields.io/badge/PYQT5-10c93e?style=for-the-badge&logo=qt&logoColor=white"
+          />
+
+          <Shield
+            alt="Numpy"
+            src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"
+          />
+
+          <Shield
+            alt="Pandas"
+            src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"
+          />
+        </ProjectCard>
 
         <ProjectCard
           title="WatchList"
           description="WatchList is an Android application used for showcasing watches. 
 
           The app was built using Java and Android Studio and features search functionality, filtering by categories, and a favorites page. "
-        />
+        >
+          <Shield
+            alt="Android Studio"
+            src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white"
+          />
+
+          <Shield
+            alt="Java"
+            src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"
+          />
+
+          <Shield
+            alt="Figma"
+            src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
+          />
+        </ProjectCard>
 
         <ProjectCard
           title="Energy Monitor"
@@ -55,7 +93,36 @@ function Projects() {
           This project features a custom circuit board for signal sensing and conditioning.
           
           The circuit board was paired with an ATmega328PB microprocessor running firmware for signal processing.     "
-        />
+        >
+          <Shield
+            alt="C"
+            src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"
+          />
+
+          <Shield
+            alt="Altium Designer"
+            src="https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white"
+          />
+
+          <Shield
+            alt="LT Spice"
+            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Microchip studio"
+            src="https://img.shields.io/badge/Microchip_Studio-EE3233?style=for-the-badge"
+          />
+
+          <Shield
+            alt="Proteus"
+            src="https://img.shields.io/badge/Proteus-1C79B3?style=for-the-badge"
+          />
+          <Shield
+            alt="ATmega328PB"
+            src="https://img.shields.io/badge/ATmega328PB-ed1b2d?style=for-the-badge"
+          />
+        </ProjectCard>
       </div>
 
       <div></div>
