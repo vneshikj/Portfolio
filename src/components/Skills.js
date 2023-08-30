@@ -67,7 +67,7 @@ function Skills() {
           />
         </div>
       </div>
-
+      {/*  */}
       <div className="skill-container">
         <h2 className="purple-mini-header">Embedded Systems</h2>
         <div className="shield-container">
