@@ -77,6 +77,16 @@ function Skills() {
           />
 
           <Shield
+            alt="PSOC 5"
+            src="https://img.shields.io/badge/PSOC%205-3670A0?style=for-the-badge"
+          />
+
+          <Shield
+            alt="PSOC Creator"
+            src="https://img.shields.io/badge/PSOC%20Creator-AA5042?style=for-the-badge"
+          />
+
+          <Shield
             alt="Quartus"
             src="https://img.shields.io/badge/Quartus_Prime-00285A?style=for-the-badge"
           />
@@ -109,6 +119,11 @@ function Skills() {
           <Shield
             alt="ATmega328PB"
             src="https://img.shields.io/badge/ATmega328PB-ed1b2d?style=for-the-badge"
+          />
+
+          <Shield
+            alt="SCCharts"
+            src="https://img.shields.io/badge/SCCharts-6fc92a?style=for-the-badge"
           />
         </div>
       </div>
@@ -149,26 +164,37 @@ function Skills() {
             alt="GitHub"
             src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
           />
+
           <Shield
             alt="Git"
             src="https://img.shields.io/badge/Git-F05133?style=for-the-badge&logo=git&logoColor=white"
           />
+
           <Shield
             alt="Visual Studio Code"
             src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"
           />
+
           <Shield
             alt="Notion"
             src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"
           />
+
           <Shield
             alt="Trello"
             src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"
           />
+
+          <Shield
+            alt="Netlify"
+            src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"
+          />
+
           <Shield
             alt="Powershell"
             src="https://img.shields.io/badge/Powershell-2671BE?style=for-the-badge&logo=powershell&logoColor=white"
           />
+
           <Shield
             alt="Gradle"
             src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white"
@@ -183,22 +209,27 @@ function Skills() {
             alt="Maven"
             src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white"
           />
+
           <Shield
             alt="Obsidian"
             src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white"
           />
+
           <Shield
             alt="Android Studio"
             src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white"
           />
+
           <Shield
             alt="Eclipse"
             src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white"
           />
+
           <Shield
             alt="IntelliJ IDEA"
             src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"
           />
+
           <Shield
             alt="RStudio"
             src="https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white"
