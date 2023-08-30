@@ -26,7 +26,6 @@ body {
 }
 
 /* Navitation bar */
-
 .navbar {
   background-color: #232323;
   display: flex;
@@ -109,7 +108,6 @@ a:hover::after {
 }
 
 /* About me section */
-
 .about-me {
   margin-top: 180px;
   font-family: League Spartan;
@@ -131,11 +129,26 @@ a:hover::after {
   margin-bottom: 0.7%;
   font-size: 300%;
   font-weight: 500;
+  margin-top: 40px;
+}
+
+.about-me-image-text-div {
+  display: grid;
+  column-gap: 8%;
+  grid-template-columns: 8fr 6fr;
+  justify-items: center;
+  justify-content: center;
+}
+
+.portrait {
+  object-fit: contain;
+  width: 400px;
+  height: auto;
 }
 
 .about-me-intro {
   line-height: 140%;
-  margin-top: 2.5%;
+  margin-top: 0;
   font-size: 140%;
   font-family: League Spartan;
   font-weight: 300;
@@ -399,6 +412,7 @@ h1 {
   display: none;
 }
 
+/* For mobile screen  */
 @media (max-width: 700px) {
   body {
     overflow-x: hidden;
@@ -459,14 +473,45 @@ h1 {
   }
 }
 
-/* For navigation bar */
+/* For navigation bar, and profile pic adjustment*/
 @media (max-width: 1000px) {
   body {
     box-sizing: border-box;
     width: 100%;
   }
+
+  .about-me-image-text-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+  }
+
+  .name {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .about-me {
+    margin-top: 120px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .portrait {
+    object-fit: cover;
+    grid-row: 1;
+    object-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 10%;
+  }
+
   .contact-section {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .contact-writing {
