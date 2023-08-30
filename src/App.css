@@ -134,8 +134,8 @@ a:hover::after {
 
 .about-me-image-text-div {
   display: grid;
-  column-gap: 150px;
-  grid-template-columns: 1fr 1fr;
+  column-gap: 10%;
+  grid-template-columns: 8fr 6fr;
 }
 
 .portrait {
@@ -410,6 +410,7 @@ h1 {
   display: none;
 }
 
+/* For mobile screen  */
 @media (max-width: 700px) {
   body {
     overflow-x: hidden;
@@ -470,12 +471,17 @@ h1 {
   }
 }
 
-/* For navigation bar */
+/* For navigation bar, and profile pic adjustment*/
 @media (max-width: 1000px) {
   body {
     box-sizing: border-box;
     width: 100%;
   }
+
+  .about-me-image-text-div {
+    grid-template-rows: 1fr;
+  }
+
   .contact-section {
     grid-template-columns: 1fr;
   }
