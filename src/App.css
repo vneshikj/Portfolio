@@ -109,7 +109,6 @@ a:hover::after {
 }
 
 /* About me section */
-
 .about-me {
   margin-top: 180px;
   font-family: League Spartan;
@@ -133,9 +132,21 @@ a:hover::after {
   font-weight: 500;
 }
 
+.about-me-image-text-div {
+  display: grid;
+  column-gap: 150px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portrait {
+  object-fit: contain;
+  width: 400px;
+  height: auto;
+}
+
 .about-me-intro {
   line-height: 140%;
-  margin-top: 2.5%;
+  margin-top: 0;
   font-size: 140%;
   font-family: League Spartan;
   font-weight: 300;
