@@ -26,7 +26,6 @@ body {
 }
 
 /* Navitation bar */
-
 .navbar {
   background-color: #232323;
   display: flex;
@@ -130,12 +129,15 @@ a:hover::after {
   margin-bottom: 0.7%;
   font-size: 300%;
   font-weight: 500;
+  margin-top: 40px;
 }
 
 .about-me-image-text-div {
   display: grid;
-  column-gap: 10%;
+  column-gap: 8%;
   grid-template-columns: 8fr 6fr;
+  justify-items: center;
+  justify-content: center;
 }
 
 .portrait {
@@ -479,11 +481,37 @@ h1 {
   }
 
   .about-me-image-text-div {
-    grid-template-rows: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+  }
+
+  .name {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .about-me {
+    margin-top: 120px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .portrait {
+    object-fit: cover;
+    grid-row: 1;
+    object-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 10%;
   }
 
   .contact-section {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .contact-writing {
