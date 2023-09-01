@@ -8,10 +8,16 @@ assignees: "vneshikj"
 
 ## Description
 
-<!-- Summaruse the bug to be fixed -->
+<!-- Summarise the bug to be fixed -->
 
 ## Expected Behaviour
 
 <!-- Describe the desired behaviour -->
 
-## Reproducing the Bug
+## Ideal Solution
+
+<!-- Provide an optimal solution -->
+
+## Alternate Solution
+
+<!-- Probide an alternatative solution -->
