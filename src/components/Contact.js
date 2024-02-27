@@ -9,8 +9,9 @@ function Contact() {
         <h1>Contact Me</h1>
         <div className="adjust">
           <p className="contact-description">
-            I welcome the opportunity for feedback, collaborative projects or
-            even just a casual conversation!
+            Join me for a coffee as we engage in discussions about potential
+            collaborations, share ideas, or casually chat about anything that
+            comes to mind.
           </p>
         </div>
       </div>

@@ -77,8 +77,8 @@ function Skills() {
           />
 
           <Shield
-            alt="PSOC 5"
-            src="https://img.shields.io/badge/PSOC%205-3670A0?style=for-the-badge"
+            alt="PSOC 5LP"
+            src="https://img.shields.io/badge/PSOC%205LP-3670A0?style=for-the-badge"
           />
 
           <Shield
@@ -124,6 +124,21 @@ function Skills() {
           <Shield
             alt="SCCharts"
             src="https://img.shields.io/badge/SCCharts-6fc92a?style=for-the-badge"
+          />
+
+          <Shield
+            alt="MPLAB"
+            src="https://img.shields.io/badge/MPLAB_X-536d78?style=for-the-badge"
+          />
+
+          <Shield
+            alt="PIC24"
+            src="https://img.shields.io/badge/PIC24HJ32-c77334?style=for-the-badge"
+          />
+
+          <Shield
+            alt="NIOS II"
+            src="https://img.shields.io/badge/NIOS_II-28d17a?style=for-the-badge"
           />
         </div>
       </div>

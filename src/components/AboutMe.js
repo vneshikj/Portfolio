@@ -12,17 +12,16 @@ function AboutMe() {
           <h2 className="title"> Computer Systems Engineering Student</h2>
 
           <div className="about-me-intro">
-            <p>Hi there! </p>
+            <p>Greetings and welcome,</p>
 
             <p>
               I’m Viktor, an aspiring computer engineer wanting to improve the
               lives of people around the world. I’m deeply passionate about
               hardware and software development, striving for the absolute best
               with each task at hand. Throughout my study at the University of
-              Auckland, I have completed numerous projects, including an energy
-              monitor, a sign language interpreter, and an Android application
-              for viewing watches. Above all, what is most important to me is
-              bringing joy to my colleagues and end-users through my work.
+              Auckland, I have completed numerous projects, which can be viewed
+              below. Above all, what is most important to me is bringing joy to
+              my colleagues and end-users through my work.
             </p>
           </div>
         </div>
