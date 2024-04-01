@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["statechart"]
+  "cSpell.words": ["statechart"],
+  "conventionalCommits.scopes": ["info"]
 }
