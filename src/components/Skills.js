@@ -69,7 +69,7 @@ function Skills() {
       </div>
       {/*  */}
       <div className="skill-container">
-        <h2 className="purple-mini-header">Embedded Systems</h2>
+        <h2 className="purple-mini-header">Electronics & Embedded Systems </h2>
         <div className="shield-container">
           <Shield
             alt="Altium Designer"
@@ -77,18 +77,18 @@ function Skills() {
           />
 
           <Shield
-            alt="PSOC 5LP"
-            src="https://img.shields.io/badge/PSOC%205LP-3670A0?style=for-the-badge"
+            alt="PSoC 5LP"
+            src="https://img.shields.io/badge/PSoC_5LP-17202c?style=for-the-badge&logo=cypress&logoColor=white"
           />
 
           <Shield
-            alt="PSOC Creator"
-            src="https://img.shields.io/badge/PSOC%20Creator-AA5042?style=for-the-badge"
+            alt="PSoC Creator"
+            src="https://img.shields.io/badge/PSoC_Creator-17202c?style=for-the-badge&logo=cypress&logoColor=white"
           />
 
           <Shield
             alt="Quartus"
-            src="https://img.shields.io/badge/Quartus_Prime-00285A?style=for-the-badge"
+            src="https://img.shields.io/badge/Quartus_Prime-00285A?style=for-the-badge&logo=intel&logoColor=white"
           />
 
           <Shield
@@ -98,7 +98,7 @@ function Skills() {
 
           <Shield
             alt="Cyclone V FPGA"
-            src="https://img.shields.io/badge/Cyclone_V_FPGA-0067a5?style=for-the-badge"
+            src="https://img.shields.io/badge/Cyclone_V_FPGA-0067a5?style=for-the-badge&logo=intel&logoColor=white"
           />
 
           <Shield
@@ -113,7 +113,7 @@ function Skills() {
 
           <Shield
             alt="LT Spice"
-            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge"
+            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge&logo=ltspice&logoColor=white"
           />
 
           <Shield
@@ -127,18 +127,27 @@ function Skills() {
           />
 
           <Shield
-            alt="MPLAB"
+            alt="MPLAB X"
             src="https://img.shields.io/badge/MPLAB_X-536d78?style=for-the-badge"
           />
 
           <Shield
+            alt="Raspberry Pi Pico"
+            src="https://img.shields.io/badge/Raspberry_Pi_Pico-a22846?style=for-the-badge&logo=raspberrypi&logoColor=white"
+          />
+
+          <Shield
+            alt="Arm Cortex M3"
+            src="https://img.shields.io/badge/Arm_Cortex_M3-0091bd?style=for-the-badge&logo=arm&logoColor=white"
+          />
+          <Shield
             alt="PIC24"
-            src="https://img.shields.io/badge/PIC24HJ32-c77334?style=for-the-badge"
+            src="https://img.shields.io/badge/PIC24HJ32-c77334?style=for-the-badge&logo"
           />
 
           <Shield
             alt="NIOS II"
-            src="https://img.shields.io/badge/NIOS_II-28d17a?style=for-the-badge"
+            src="https://img.shields.io/badge/NIOS_II-28d17a?style=for-the-badge&logo"
           />
         </div>
       </div>
@@ -211,6 +220,11 @@ function Skills() {
           />
 
           <Shield
+            alt="Bash"
+            src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"
+          />
+
+          <Shield
             alt="Gradle"
             src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white"
           />
@@ -263,6 +277,11 @@ function Skills() {
           <Shield
             alt="Figma"
             src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
+          />
+
+          <Shield
+            alt="Typst"
+            src="https://img.shields.io/badge/Typst-24B5C8?style=for-the-badge&logo=typst&logoColor=white"
           />
         </div>
       </div>
