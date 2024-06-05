@@ -26,7 +26,7 @@ function AboutMe() {
           </div>
         </div>
 
-        <img src={portrait} className="portrait"></img>
+        <img src={portrait} decoding="async" className="portrait"></img>
       </div>
     </div>
   );
