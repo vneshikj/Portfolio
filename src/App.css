@@ -74,17 +74,8 @@
 
 @font-face {
   font-family: "League Spartan";
-  src: url("../public/fonts/LeagueSpartan-Light.woff2") format("woff2"),
-    url("../public/fonts/LeagueSpartan-Light.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "League Spartan";
-  src: url("../public/fonts/LeagueSpartan-Regular.woff2") format("woff2"),
-    url("../public/fonts/LeagueSpartan-Regular.woff") format("woff");
+  src: url("../public/fonts/LeagueSpartan-SemiBold.woff2") format("woff2"),
+    url("../public/fonts/LeagueSpartan-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -481,7 +472,7 @@ h1 {
   white-space: normal;
   font-size: 22px;
   font-family: "League Spartan", sans-serif;
-  font-weight: 400;
+  font-weight: lighter;
 }
 
 .adjust {

@@ -15,7 +15,7 @@ function Projects() {
           title="Pathfinding Robot"
           description="A robot capable of navigate it's way through a light-projected maze. The project features a custom PCB for signal sensing and conditioning with photodiodes.
           
-          The firmware dynamically solves the shortest path in the maze while also being equipped with a control system ensures seamless navigation and smooth turning through the motors. 
+          The firmware dynamically solves the shortest path in the maze while also being equipped with a control system that ensures seamless navigation and smooth turning through the motors. 
           "
           link="https://github.com/JamesNZL/compsys301-pathfinding-robot"
         >
