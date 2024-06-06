@@ -15,23 +15,23 @@ function Projects() {
           title="Pathfinding Robot"
           description="A robot capable of navigate it's way through a light-projected maze. The project features a custom PCB for signal sensing and conditioning with photodiodes.
           
-          The firmware dynamically solves the shortest path in the maze while the control system ensures seamless straight line navigation and turning through the motors. 
+          The firmware dynamically solves the shortest path in the maze while also being equipped with a control system ensures seamless navigation and smooth turning through the motors. 
           "
           link="https://github.com/JamesNZL/compsys301-pathfinding-robot"
         >
           <Shield
-            alt="PSOC 5LP"
-            src="https://img.shields.io/badge/PSOC%205LP-3670A0?style=for-the-badge"
+            alt="PSoC 5LP"
+            src="https://img.shields.io/badge/PSoC_5LP-17202c?style=for-the-badge&logo=cypress&logoColor=white"
           />
 
           <Shield
-            alt="PSOC Creator"
-            src="https://img.shields.io/badge/PSOC%20Creator-AA5042?style=for-the-badge"
+            alt="PSoC Creator"
+            src="https://img.shields.io/badge/PSoC_Creator-17202c?style=for-the-badge&logo=cypress&logoColor=white"
           />
 
           <Shield
             alt="LT Spice"
-            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge"
+            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge&logo=ltspice&logoColor=white"
           />
 
           <Shield
@@ -66,7 +66,7 @@ function Projects() {
 
           <Shield
             alt="LT Spice"
-            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge"
+            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge&logo=ltspice&logoColor=white"
           />
 
           <Shield
@@ -160,12 +160,12 @@ function Projects() {
 
           <Shield
             alt="Cyclone V FPGA"
-            src="https://img.shields.io/badge/Cyclone_V_FPGA-0067a5?style=for-the-badge"
+            src="https://img.shields.io/badge/Cyclone_V_FPGA-0067a5?style=for-the-badge&logo=intel&logoColor=white"
           />
 
           <Shield
             alt="Quartus"
-            src="https://img.shields.io/badge/Quartus_Prime-00285A?style=for-the-badge"
+            src="https://img.shields.io/badge/Quartus_Prime-00285A?style=for-the-badge&logo=intel&logoColor=white"
           />
         </ProjectCard>
 

@@ -12,7 +12,7 @@ function AboutMe() {
           <h2 className="title"> Computer Systems Engineering Student</h2>
 
           <div className="about-me-intro">
-            <p>Greetings and welcome,</p>
+            <p>Greetings,</p>
 
             <p>
               I’m Viktor, an aspiring computer engineer wanting to improve the
