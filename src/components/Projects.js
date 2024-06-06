@@ -12,6 +12,27 @@ function Projects() {
 
       <div className="project-layout2">
         <ProjectCard
+          title="Inductive Drive RC Car"
+          description="An RC car equipped with custom-designed pick-up and DC-DC converter circuitry to receive wireless power from the track. The pick-up circuit consists of a fine-tuned pick-up coil and regulation circuitry. The custom buck converter includes a compensator in addition to its control system to deliver clean, noise-free power at all varying loads."
+          link="https://github.com/vneshikj/Inductive-Drive-RC-Car"
+        >
+          <Shield
+            alt="LT Spice"
+            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge&logo=ltspice&logoColor=white"
+          />
+
+          <Shield
+            alt="Altium Designer"
+            src="https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white"
+          />
+
+          <Shield
+            alt="Plex It"
+            src="https://img.shields.io/badge/PLEX_IT-005377?style=for-the-badge"
+          />
+        </ProjectCard>
+
+        <ProjectCard
           title="Pathfinding Robot"
           description="A robot capable of navigate it's way through a light-projected maze. The project features a custom PCB for signal sensing and conditioning with photodiodes.
           
