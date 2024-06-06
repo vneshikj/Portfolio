@@ -17,18 +17,13 @@ function Projects() {
           link="https://github.com/vneshikj/Inductive-Drive-RC-Car"
         >
           <Shield
-            alt="LT Spice"
-            src="https://img.shields.io/badge/LTspice-8E0A26?style=for-the-badge&logo=ltspice&logoColor=white"
-          />
-
-          <Shield
             alt="Altium Designer"
             src="https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white"
           />
 
           <Shield
-            alt="Plex It"
-            src="https://img.shields.io/badge/PLEX_IT-005377?style=for-the-badge"
+            alt="Plexim"
+            src="https://img.shields.io/badge/PLEXIM-005377?style=for-the-badge"
           />
         </ProjectCard>
 
